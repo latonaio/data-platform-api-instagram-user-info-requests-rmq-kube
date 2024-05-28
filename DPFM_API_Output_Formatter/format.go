@@ -1,0 +1,12 @@
+package dpfm_api_output_formatter
+
+func ConvertToInstagramUserInfoRequestsFromResponse(
+	instagramUserInfoRequestsResponseBody InstagramUserInfoResponseBody,
+) InstagramUserInfoResponse {
+	var instagramUserInfoRequestsResponse InstagramUserInfoResponse
+
+	instagramUserInfoRequestsResponse.InstagramID = instagramUserInfoRequestsResponseBody.ID
+	instagramUserInfoRequestsResponse.InstagramUserName = instagramUserInfoRequestsResponseBody.UserName
+
+	return instagramUserInfoRequestsResponse
+}

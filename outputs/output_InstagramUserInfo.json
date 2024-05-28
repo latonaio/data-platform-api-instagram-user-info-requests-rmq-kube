@@ -1,0 +1,32 @@
+{
+  "accepter": [
+    "InstagramUserInfo"
+  ],
+  "api_processing_error": "",
+  "api_processing_result": true,
+  "api_schema": "DPFMInstagramUserInfoRequests",
+  "api_status_code": 200,
+  "api_type": "requests",
+  "business_partner": null,
+  "connection_key": "response",
+  "deleted": false,
+  "exconf_error": "",
+  "exconf_result": null,
+  "filepath": "/var/lib/aion/Data/rededge_sdc/abcdef.json",
+  "message": {
+    "InstagramUserInfoResponse": [
+      {
+        "InstagramID": "XXXXXXXXXXXXXX",
+        "username": "super_test_blade"
+      }
+    ]
+  },
+  "redis_key": "abcdefg",
+  "runtime_session_id": "boi9ar543dg91ipdnspi099u231280ab0v8af0ew",
+  "service_label": "INSTAGRAM_USER_INFO",
+  "sql_update_error": "",
+  "sql_update_result": null,
+  "subfunc_error": "",
+  "subfunc_result": null,
+  "time_stamp": "2024/05/22 18:20:15"
+}
